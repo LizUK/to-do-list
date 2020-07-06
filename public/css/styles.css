@@ -1,0 +1,235 @@
+html {
+  background-color: #333366;
+  background-image: linear-gradient(to right, rgba(51, 51, 102,1), rgba(51, 51, 51,1));
+  background-image: -webkit-linear-gradient(to right, rgba(51, 51, 102,1), rgba(51, 51, 51,1));
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+h1 {
+  color: #fff;
+  padding: 15px 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+#about h1 {
+	padding-left: 20px;
+}
+
+#about p {
+	color: #fff;
+}
+
+#heading.box {
+  max-width: 400px;
+  margin: 50px auto 0;
+  min-height: 70px;
+  border-radius: 15px 15px 0 0;
+}
+
+.box {
+  max-width: 400px;
+  margin: 0 auto 0;
+  background: #22222F;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  position:relative;
+}
+
+.box h1 {
+	margin-bottom: 0;}
+
+#heading {
+  background-color: #22222F;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+
+.item p {
+  color: #fff;
+  width: 70%;
+}
+
+i.fa-check-circle {
+    float: right;
+	visibility: hidden;
+}
+
+input:checked+p i.fa-check-circle {
+	visibility: visible;
+}
+
+.item-holder:nth-child(1n) {
+background-color: #22222F;	
+}
+
+.item-holder:nth-child(1n) .item {
+	background-color: #FF3399;
+	border-top: 1px solid #ff3399;
+	box-shadow: 0 -3px 2px #660033;
+}
+
+.item-holder:nth-child(1n) .item i.fa-check-circle {
+    color: #660033;
+}
+
+.item-holder:nth-child(2n) {
+background-color: #ff3399;	
+}
+
+.item-holder:nth-child(2n) .item {
+	background-color: #993366;
+	border-top: 1px solid #993366;
+	box-shadow: 0 -3px 2px #663333;
+}
+
+.item-holder:nth-child(2n) .item i.fa-check-circle {
+    color: #663333;
+}
+
+.item-holder:nth-child(3n) {
+background-color: #993366;	
+}
+.item-holder:nth-child(3n) .item {
+	background-color: #6633CC;
+	border-top: 1px solid #6633cc;
+	box-shadow: 0 -3px 2px #330066;
+}
+
+.item-holder:nth-child(3n) .item i.fa-check-circle {
+    color: #330066;
+}
+.item-holder:nth-child(4n) {
+background-color: #6633cc;	
+}
+
+.item-holder:nth-child(4n) .item {
+	background-color: #3366CC;
+	border-top: 1px solid #3366cc;
+	box-shadow: 0 -3px 2px #003366;
+}
+
+.item-holder:nth-child(4n) .item i.fa-check-circle {
+    color: #003366;
+}
+
+.item-holder:nth-child(5n) {
+background-color: #3366cc;	
+}
+
+.item-holder:nth-child(5n) .item {
+	background-color: #FF9933;
+	border-top: 1px solid #ff9933;
+	box-shadow: 0 -3px 2px #663300;
+}
+
+.item-holder:nth-child(5n) .item i.fa-check-circle {
+    color: #663300;
+}
+.item-holder:nth-child(6n) {
+background-color: #ff9933;	
+}
+
+.item-holder:nth-child(6n) .item {
+	background-color: #CC3333;
+	border-top: 1px solid #cc3333;
+	box-shadow: 0 -3px 2px #660000;
+}
+
+.item-holder:nth-child(6n) .item i.fa-check-circle {
+    color: #660000;
+}
+
+.form-item-holder {
+background-color: #22222F;	
+box-shadow: 0 -3px 2px #ccc;
+border-radius: 0 0 15px 15px;
+}
+
+form.item {
+  border-bottom: 0;
+  background-color: #fff;
+ border-top: 1px solid #fff;
+  color: #000;
+  border-radius: 0 0 15px 15px;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #000;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+  box-shadow: 0 -3px 2px #333;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+	padding-top: 25px;
+}
+
+footer p,
+footer a {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
